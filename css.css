@@ -1,0 +1,33 @@
+body {
+    background-color: #f7f2e7;
+    margin: 0;
+    border: 0;
+    height: 918px;
+}
+
+main {
+    width: 778px;
+    height: 912px;
+    border: solid #84704b 1px;
+    border-bottom: solid #dfd2a6 5px;
+    margin: auto;
+    background-color: white;
+}
+
+footer {
+    width: 778px;
+    height: 33px;
+    border: solid #84704b 1px;
+    border-top: dotted #84704b 1px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+footer span {
+    padding: 1px;
+}
