@@ -14,6 +14,118 @@ main {
     background-color: white;
 }
 
+table {
+    padding: 0;
+}
+
+td {
+    padding: inherit;
+}
+
+#up {
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#login {
+    width: 359px;
+    height: 220px;
+    background: url(imgs/q.PNG);
+    background-size: cover;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa {
+    padding-top: 51px;
+    width: 285px;
+    height: 65px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-wrapper1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-wrapper2 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-label {
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+#login button {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border: solid #b59e61 1px;
+}
+
+#login span {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+
+}
+
+input {
+    width: 102px;
+    height: 12px;
+    margin-right: 5px;
+    padding: 0;
+    border: solid #ae9e73 1px;
+}
+
+#info {
+    width: 359px;
+    height: 220px;
+    background-color: #f6efe6;
+    border-radius: 5%;
+}
+
+#aboutme {
+    width: 359px;
+    height: 220px;
+    background-color: #f6efe6;
+    border-radius: 5%;
+}
+
+#icons {
+    width: 359px;
+    height: 220px;
+    background-color: #f6efe6;
+    border-radius: 5%;
+}
+
+#right {
+    width: 17px;
+}
+
+#mid {
+    width: 17px;
+}
+
+#midder {
+    height: 15px;
+}
+
 footer {
     width: 778px;
     height: 33px;
