@@ -38,6 +38,14 @@ td {
     align-items: center;
 }
 
+#recup {
+    color: blue;
+}
+
+#recup:hover {
+    cursor: pointer;
+}
+
 #caixa {
     padding-top: 51px;
     width: 285px;
@@ -77,6 +85,10 @@ td {
     margin-top: 8px;
     margin-left: 8px;
     border: solid #b59e61 1px;
+}
+
+#login button:hover {
+    cursor: pointer;
 }
 
 #login span {
