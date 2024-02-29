@@ -28,12 +28,15 @@ function ChangeText(img) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('dark-mode');
-    const main = document.querySelector('main')
-    const body = document.querySelector('body')
-    const footer = document.querySelector('footer')
+    const main = document.querySelector('main');
+    const body = document.querySelector('body');
+    const footer = document.querySelector('footer');
+    const icon = document.getElementById('icon');
+    
     button.addEventListener('click', function() {
         if(trigger === false) {
             button.style.background = "url(imgs/2bbf31ad4094b5f1a5031fbe91faa12b-removebg-preview-removebg-preview.png)";
+            icon.href = "imgs/2bbf31ad4094b5f1a5031fbe91faa12b-removebg-preview-removebg-preview.png";
             trigger = true;
             console.log('lua');
             body.style.backgroundColor = '#24292f';
@@ -43,7 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
             footer.style.color = '#e6edf3'
             footer.style.borderColor = 'darkslategray';
         } else {
-            button.style.background = "url(imgs/solaire__sun___dark_souls_by_redknightz01_dbcdh4n-fullview.png)";
+            button.style.background = "url(imgs/solaire__sun___dark_souls_by_redknightz01_dbcdh4n-fullview-removebg-preview.png)";
+            icon.href = "imgs/solaire__sun___dark_souls_by_redknightz01_dbcdh4n-fullview-removebg-preview.png";
             trigger = false;
             console.log('sol');
             main.style.backgroundColor = 'white';
