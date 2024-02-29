@@ -232,6 +232,22 @@ input {
     height: 15px;
 }
 
+#dark-mode {
+    background: url(imgs/solaire__sun___dark_souls_by_redknightz01_dbcdh4n-fullview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border: 0;
+    margin-left: 330px;
+    margin-top: 300px;
+    padding: 0;
+}
+
+#dark-mode:hover {
+    cursor: pointer;
+}
+
 footer {
     width: 778px;
     height: 33px;
