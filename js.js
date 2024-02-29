@@ -52,8 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('sol');
             main.style.backgroundColor = 'white';
             main.style.borderColor = '#84704b';
+            main.style.borderBottomColor = '#dfd2a6';
             body.style.backgroundColor = '#f7f2e7';
-            footer.style.backgroundColor = '#f7f2e7';
+            footer.style.backgroundColor = 'white';
             footer.style.color = 'black'
             footer.style.borderColor = '#84704b';
         }
