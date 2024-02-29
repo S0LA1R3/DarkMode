@@ -95,8 +95,23 @@ input {
 #info {
     width: 359px;
     height: 220px;
-    background-color: #f6efe6;
+    background: url(imgs/loginaluno31.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 5%;
+    justify-content: center;
+}
+
+#adv {
+    display: flex;
+    width: 318px;
+    height: 36px;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    padding-top: 51px;
+    padding-left: 20px;
+    text-align: justify;
+
 }
 
 #aboutme {
@@ -154,8 +169,32 @@ input {
 #icons {
     width: 359px;
     height: 220px;
-    background-color: #f6efe6;
+    background: url(imgs/info.png);
+    background-repeat: no-repeat;
     border-radius: 5%;
+}
+
+#tab {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    padding-left: 21px;
+}
+
+#tab img {
+    padding-right: 21px;
+}
+
+#tab img:hover {
+    cursor: pointer;
+}
+
+#erro {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    padding-left: 72px;
+    font-weight: 700;
+
 }
 
 #right {
