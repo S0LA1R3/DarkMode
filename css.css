@@ -112,15 +112,26 @@ input {
     background-size: cover;
     border-radius: 5%;
     justify-content: center;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+#inv {
+    display: flex;
+    width: 318px;
+    height: 24px;
+    padding: 0;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 21px;
+    font-weight: 700;
 }
 
 #adv {
     display: flex;
     width: 318px;
     height: 36px;
-    font-family: Verdana, sans-serif;
-    font-size: 10px;
-    padding-top: 51px;
+    padding-top: 81px;
     padding-left: 20px;
     text-align: justify;
 
